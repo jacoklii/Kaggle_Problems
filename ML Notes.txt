@@ -1,0 +1,201 @@
+﻿Supervised and unsupervised:
+Supervised:
+* Knows the data
+* Learns from data with answers
+* Labeled dataset (correct answers or classification)
+* After new set of examples (data) so it can analyses the training data and produce correct outcome for labeled data
+
+
+Types of Supervised Learning:
+Regression:
+* To predict continuous values (house prices, stock prices, temp)
+* Learns how to connect input data to specific numbers or values
+
+
+Algorithm Types for Regression:
+* Linear regression (simple)
+* Polynomial regression
+* Lasso regression
+* Ridge regression
+
+
+        Classification:
+* To predict categorical values (whether a customer will buy or not, email is spam or not, medical image shows tumor or not)
+* Connect input data to the probability of belonging to different groups/categories
+
+
+Algorithm types for Regression:
+* Logistic regression 
+* Support vector machine (simple)
+* Decision trees
+* Random forests
+* Naive Baye
+
+
+Applications for supervised learning:
+Image classification: 
+* Automatically classify images into diff categories
+* Search
+* Recommendations
+Medical diagnosis:
+* Analyzing patient data, test result, client history
+* To identify patterns
+Fraud detection:
+* Analyzes financial transactions
+Natural language processing: (nlp)
+* Important role in this
+* Sentiment analysis
+* Machine translation, Text summarization
+* Helps understand and process human language efficiently
+
+
+Advantages:
+* Learns from labeled data (data with answers) to make accurate predictions on new unseen data
+
+
+* Increases accuracy with more data and training → better performance
+* Works well with many tasks
+
+
+* ​​has the ability to handle various computational challenges.
+
+
+* It can handle both classification (sorting into categories) and regression (predict numbers), makes it flexible for diff problems
+
+
+Disadvantages:
+* Requires well labeled dataset with function (corresponding output)
+
+
+* Creating datasets take long time, money, effort (makes hard to use)
+
+
+* struggles with complex unstructured problems like understanding ideas or patterns that wasn't trained for
+
+
+* Sometimes overfit training data (good with training data, bad at new, unseen data)
+
+
+* Constant updating with new labeled data to stay accurate in real world data changes over time
+
+
+Unsupervised:
+* No supervisor to guide for machine
+* Input raw data —> Interpretation → algorithm → processing —> Output
+* Finds hidden patterns in data without answers
+* No labels/catagories
+* Analyzes data on its own to find patterns and relationships/groups with no prior knowledge
+* Hidden structures
+* Not told the correct output
+
+
+
+
+
+
+Types of unsupervised learning:
+        Clustering:
+* Repeatedly moving data points closer to the center of the group and further from points in other groups
+* Helps algorithms create clear clusters
+Algorithm types for Clustering:
+* K-means clustering
+* Hierarchical clustering
+* Principle concept analysis (PCA)
+* Singular value decomposition (SVD)
+* Gaussian mixture models (GMMs)
+* Density based spatial clustering of applications with noise (DBSCAN)
+        Association rule learning:
+* Used to find patterns and relationships between different datasets 
+* (people who buy x will often buy y)
+Algorithm types for Association Rule:
+* Apriori Algorithm
+* Eclat Algorithm
+* FP-Growth Algorithm
+
+
+Applications of unsupervised learning:
+Anomaly detection:
+* It can identify unusual patterns or behaviors in data
+* Helps the detection of fraud, security breaches, or system problems
+Scientific discovery:
+* Show hidden relations and patterns in scientific data which leads to new insights and ideas
+Recommendation systems:
+* Find similarities in user behavior and preferences to recommend products that align with interests
+Customer recommendation:
+* It can identify groups of customers with similar interests which allow businesses to target market campaigns, and improve customer service
+
+
+Advantages:
+* Doesn't need labeled data 
+* Can start working with large datasets, quicker and easier
+* Handles large amounts of data and reduces into simpler forms while keeping important patterns
+* Makes manageable and efficient
+* Discovers patterns and relations that were unknown which offers valuable insights
+* Analyzes unlabeled data to show meaningful trends and groups that help us to understand our data deeply.
+
+
+
+
+Disadvantages:
+* Difficult to tell accuracy with model with unlabeled data
+* Lack of clear guidance can lead to less precise results for complex problems
+* After grouping data, we may need to check and label these which takes up time
+* Missing data, outliers, or noise can easily affect quality of results
+
+
+
+
+
+
+Parameters
+	   Supervised machine learning
+	Unsupervised machine learning
+	Input Data  
+	They are trained on labeled data.
+	They are trained on unlabeled data.
+	Computational Complexity 
+	Simpler method
+	 Computationally complex
+	Accuracy
+	Highly accurate
+	Less accurate 
+	No. of classes
+	No. of classes is known
+	No. of classes is not known
+	Data Analysis
+	Uses offline analysis
+	Uses real-time analysis of data
+	Algorithms used
+	Linear and Logistics regression, KNN Random forest, multi-class classification, decision tree, Support Vector Machine, Neural Network etc.
+	K-Means clustering, Hierarchical clustering, Apriori algorithm etc.
+	Output 
+	Desired output is given.
+	Desired output is not given.
+	Training data 
+	Use training data to infer model.
+	No training data is used.
+	Complex model 
+	It is not possible to learn larger and more complex models with supervised learning.
+	It is possible to learn larger and more complex models with unsupervised learning.
+	Model 
+	We can test our model.
+	We can not test our model.
+	Supervision
+	Supervised learning needs supervision to train the model.
+	Unsupervised learning does not need any supervision to train the model.
+	Classification
+	Divided into two types:
+1. Regression
+2. Classification
+	Divided into two types:
+1. Clustering
+2. Association
+	Feedback
+	It has feedback mechanism.
+	It has no feedback mechanism.
+	Time Consumption
+	It's more time consuming.
+	It's less time consuming.
+	Example 
+	Optical character recognition.
+	Find a face in an image.
